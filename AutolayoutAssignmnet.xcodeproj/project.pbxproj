@@ -13,6 +13,7 @@
 		01DDD1F51F8D6BB100FC12C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DDD1F31F8D6BB100FC12C9 /* Main.storyboard */; };
 		01DDD1F71F8D6BB100FC12C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DDD1F61F8D6BB100FC12C9 /* Assets.xcassets */; };
 		01DDD1FA1F8D6BB100FC12C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DDD1F81F8D6BB100FC12C9 /* LaunchScreen.storyboard */; };
+		01DDD2051F8D739A00FC12C9 /* purpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DDD2041F8D739A00FC12C9 /* purpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		01DDD1F61F8D6BB100FC12C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01DDD1F91F8D6BB100FC12C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01DDD1FB1F8D6BB100FC12C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DDD2031F8D739A00FC12C9 /* purpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purpleView.h; sourceTree = "<group>"; };
+		01DDD2041F8D739A00FC12C9 /* purpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = purpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				01DDD1EE1F8D6BB100FC12C9 /* AppDelegate.m */,
 				01DDD1F01F8D6BB100FC12C9 /* ViewController.h */,
 				01DDD1F11F8D6BB100FC12C9 /* ViewController.m */,
+				01DDD2031F8D739A00FC12C9 /* purpleView.h */,
+				01DDD2041F8D739A00FC12C9 /* purpleView.m */,
 				01DDD1F31F8D6BB100FC12C9 /* Main.storyboard */,
 				01DDD1F61F8D6BB100FC12C9 /* Assets.xcassets */,
 				01DDD1F81F8D6BB100FC12C9 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				01DDD1F21F8D6BB100FC12C9 /* ViewController.m in Sources */,
 				01DDD1EF1F8D6BB100FC12C9 /* AppDelegate.m in Sources */,
+				01DDD2051F8D739A00FC12C9 /* purpleView.m in Sources */,
 				01DDD1EC1F8D6BB100FC12C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
